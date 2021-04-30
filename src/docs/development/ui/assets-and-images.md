@@ -21,6 +21,7 @@ to identify assets required by an app.
 Here is an example:
 
 ```yaml
+# The following section is specific to Flutter.
 flutter:
   assets:
     - assets/my_icon.png
@@ -31,6 +32,7 @@ To include all assets under a directory,
 specify the directory name with the `/` character at the end:
 
 ```yaml
+# The following section is specific to Flutter.
 flutter:
   assets:
     - directory/
@@ -83,6 +85,7 @@ your application directory:
 And your `pubspec.yaml` file contains the following:
 
 ```yaml
+# The following section is specific to Flutter.
 flutter:
   assets:
     - graphics/background.png
@@ -95,6 +98,7 @@ _main asset_, while the latter is considered a _variant_.
 If, on the other hand, the graphics directory is specified:
 
 ```yaml
+# The following section is specific to Flutter.
 flutter:
   assets:
     - graphics/
